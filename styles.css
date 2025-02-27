@@ -1,0 +1,34 @@
+.styled-heading {
+    font-size: 36px;
+    text-align: center;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.styled-heading::after {
+    content: "";
+    display: block;
+    width: 1000px; /* Adjust width */
+    height: 10px; /* Adjust thickness */
+    background-color: blue;
+    margin: 10px auto 0;
+}
+
+body {
+    background-color: rgba(161, 24, 24, 0.397); /* Solid Color */
+    /* background-image: url('background.jpg'); */ /* Uncomment to use an image */
+    background-size: cover; /* Ensures the image covers the whole screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents image repetition */
+    font-family: Arial, sans-serif; /* Optional: Sets a clean font */
+}
+
+.circle-image {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Keep height equal to width for a perfect circle */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales correctly inside the circle */
+    display: block;
+    margin: 20px auto; /* Centers the image */
+    border: 3px solid white; /* Optional: Adds a white border */
+}
