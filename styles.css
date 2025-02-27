@@ -15,7 +15,7 @@
 }
 
 body {
-    background-color: rgba(161, 24, 24, 0.397); /* Solid Color */
+    background-color: rgb(255, 253, 253); /* Solid Color */
     /* background-image: url('background.jpg'); */ /* Uncomment to use an image */
     background-size: cover; /* Ensures the image covers the whole screen */
     background-position: center; /* Centers the image */
