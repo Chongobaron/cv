@@ -15,20 +15,30 @@
 }
 
 body {
-    background-color: rgb(255, 253, 253); /* Solid Color */
+    background-color: #EFDCAB; /* Solid Color */
     /* background-image: url('background.jpg'); */ /* Uncomment to use an image */
     background-size: cover; /* Ensures the image covers the whole screen */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents image repetition */
     font-family: Arial, sans-serif; /* Optional: Sets a clean font */
+    text-align: center;
 }
 
 .circle-image {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Keep height equal to width for a perfect circle */
+    width: 300px; /* Adjust size as needed */
+    height: 300px; /* Keep height equal to width for a perfect circle */
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image scales correctly inside the circle */
     display: block;
     margin: 20px auto; /* Centers the image */
-    border: 3px solid white; /* Optional: Adds a white border */
+    border: 3px solid #1306cf; /* Optional: Adds a white border */
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    background:  #EFDCAB;
+    border-width: 5px;
+    width: 5%;
+    border-color: grey;
 }
